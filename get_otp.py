@@ -51,3 +51,7 @@ def get_otp(udid, jwt_token):
         print(json.loads(response.text)["otp"])
     else:
         print(f"Error occured: {json.loads(response.text)['message']}")
+
+
+if __name__ == "__main__":
+    main()
